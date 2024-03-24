@@ -38,7 +38,7 @@ install_centos() {
 #cp -p /etc/profile /home/backup/profile_`date +%d%b%Y-%H%M`
 #echo "MAVEN_HOME=/opt/apache-maven-3.9.6" >> /etc/profile
 #echo "JAVA_HOME=/usr/lib/jvm/java-8-oracle" >> /etc/profile
-#echo "JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64" >> /etc/profile
+#echo "JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64" >> /etc/profile
 #echo "PATH=\$JAVA_HOME/bin:\$MAVEN_HOME/bin:\$PATH" >> /etc/profile
 #source /etc/profile  ## to reload the configuration
 
